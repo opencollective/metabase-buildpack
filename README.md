@@ -1,11 +1,7 @@
-# NOTE: the Heroku Buildpack release artifact will no longer be maintained by Metabase, as we strongly encourage everyone to either deploy in Heroku via containers or fork this repository. Please see announcement https://www.metabase.com/releases/Metabase-0.45
+# Buildpack Metabase de beta.gouv
 
-Heroku Buildpack for Metabase
+## Pourquoi ?
+Depuis la version 0.45, Metabase encourage l'utilisation de son propre cloud. Voir [cette annonce](https://www.metabase.com/releases/Metabase-0.45).  
+Donc les buildpacks ne sont plus maintenus.
 
-Add the following to your app.json:
-
-"buildpacks": [
-  {
-    "url": "https://github.com/metabase/metabase-buildpack"
-  }
-]
+Ce repository a pour but de continuer à donner à la communauté beta un buildpack à jour.
